@@ -1,7 +1,6 @@
 
 #### Simple banking system
 
-Description
 This is the basic banking system. It includes the opportunity to deposit money into an account, make transfers and close an account if necessary.
 
 
