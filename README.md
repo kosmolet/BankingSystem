@@ -1,5 +1,5 @@
 
-####Simple banking system
+#### Simple banking system
 
 Description
 This is the basic banking system. It includes the opportunity to deposit money into an account, make transfers and close an account if necessary.
@@ -17,11 +17,11 @@ Full menu looks like this:
 If the user asks for Balance, system should read the balance of the account from the database and output it into the console.
 Add income item should allow users to deposit money to the account.
 Do transfer item should allow transferring money to another account. It should handle the following errors:
-•	If the user tries to transfer more money than he/she has, output: "Not enough money!"
-•	If the user tries to transfer money to the same account, output the following message: “You can't transfer money to the same account!”
-•	If the receiver's card number doesn’t pass the Luhn algorithm, program should output: “Probably you made mistake in the card number. Please try again!”
-•	If the receiver's card number doesn’t exist, program should output: “Such a card does not exist.”
-•	If there is no error, it asks the user how much money they want to transfer and make the transaction.
+*	If the user tries to transfer more money than he/she has, output: "Not enough money!"
+*	If the user tries to transfer money to the same account, output the following message: “You can't transfer money to the same account!”
+*	If the receiver's card number doesn’t pass the Luhn algorithm, program should output: “Probably you made mistake in the card number. Please try again!”
+*	If the receiver's card number doesn’t exist, program should output: “Such a card does not exist.”
+*	If there is no error, it asks the user how much money they want to transfer and make the transaction.
 If the user chooses the Close account item, the account is deleted from the database.
 
 
